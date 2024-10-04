@@ -315,19 +315,19 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: # Twikoo/Waline
+  use: Twikoo/Valine
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  count: true # Display comment count in post's top_img
+  card_post_count: true # Display comment count in Home Page
 
 # valine
 # https://valine.js.org
 valine:
-  appId: xxxxx # leancloud application app id
-  appKey: xxxxx # leancloud application app key
+  appId: w5SFGwIuJkjcvsVDwMPpSiZg-gzGzoHsz # leancloud application app id
+  appKey: DQQKyr9VIU3Lh5NkTD02IcJs # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -358,12 +358,14 @@ waline:
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
 
+
+
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: 100023527394
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Artalk
@@ -787,7 +789,7 @@ aside:
   hide: true
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display: # 控制对应详情页面是否显示侧边栏
     archive: true
     tag: true
@@ -996,7 +998,7 @@ icons:
 pjax:
   enable: true
   exclude:
-    # - xxxx
+    - /music/
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
