@@ -14,7 +14,9 @@
   "dependencies": {
     "gulp": "^5.0.0",
     "hexo": "^7.3.0",
+    "hexo-algoliasearch": "^2.0.1",
     "hexo-butterfly-clock-anzhiyu": "^1.1.8",
+    "hexo-butterfly-envelope": "^1.0.15",
     "hexo-deployer-git": "hexojs/hexo-deployer-git",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -27,6 +29,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
+    "hexo-wordcount": "^6.0.1",
     "valine": "^1.5.2"
   },
   "devDependencies": {
