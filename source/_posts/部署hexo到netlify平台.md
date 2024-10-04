@@ -5,10 +5,10 @@ tags:
   - 技术
   - 前端
   - 美丽
-top_img: https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp
+top_img: https://www.helloimg.com/i/2024/10/04/66ff931108f63.jpg
 date: 2024-10-04 14:32:37
 updated: 2024-10-04 14:32:44
-cover: https://s2.loli.net/2024/10/03/tg9zYKmc3MNOAFb.png
+cover: https://www.helloimg.com/i/2024/10/04/66ff931108f63.jpg
 description: 这是页面描述
 keywords: 这是页面关键字
 swiper_index: 1
