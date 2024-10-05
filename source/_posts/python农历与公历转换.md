@@ -37,7 +37,7 @@ s = "农历:%d年%s%d月%d日" % (day.getLunarYear(), '闰' if day.isLunarLeap()
 print(s)
 ```
 
-![image](https://img2022.cnblogs.com/blog/2744441/202202/2744441-20220206172313509-1291277248.png)
+![image](https://www.helloimg.com/i/2024/10/05/6700dee8a299d.png)
 
 
 
@@ -51,7 +51,7 @@ s = "公历:%d年%d月%d日" % (day.getSolarYear(), day.getSolarMonth(), day.get
 s
 ```
 
-![image](https://img2022.cnblogs.com/blog/2744441/202202/2744441-20220206172225423-1806804461.png)
+![image](https://www.helloimg.com/i/2024/10/05/6700def38c0c9.png)
 
 ## 其他用法
 
