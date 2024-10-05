@@ -1,5 +1,5 @@
 ---
-title: 小梦子の第一个文章
+title: hexo安装安知鱼主题
 categories: 经典文章
 tags: 
   - 知识
