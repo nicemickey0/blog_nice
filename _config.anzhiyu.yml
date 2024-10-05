@@ -1064,18 +1064,23 @@ home_top:
   subTitle: 万物可爱。
   siteText: anheyu.com
   category:
-    - name: 经典文章
-      path: /categories/经典文章/
+    - name: 博客相关
+      path: /categories/博客相关/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 奇技淫巧
-      path: /categories/奇技淫巧/
+    - name: 工具相关
+      path: /categories/工具相关/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 三方转载
-      path: /categories/三方转载/
+    - name: 技术文章
+      path: /categories/技术文章/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+    - name: Python文章
+      path: /categories/Python文章/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
