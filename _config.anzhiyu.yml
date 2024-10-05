@@ -363,6 +363,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
+  enable: true
   envId: 100023527394
   region:
   visitor: true
