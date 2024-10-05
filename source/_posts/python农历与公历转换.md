@@ -4,10 +4,10 @@ categories: 经典文章
 tags: 
   - 技术
   - Python
-top_img: https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp
+top_img: https://www.helloimg.com/i/2024/10/05/6700dfd43dabb.png
 date: 2024-10-2 14:32:48
 updated: 2024-10-3 14:23:03
-cover: https://s2.loli.net/2024/10/03/tg9zYKmc3MNOAFb.png
+cover: https://www.helloimg.com/i/2024/10/05/6700dfd43dabb.png
 description: python农历与公历转换
 keywords: python
 swiper_index: 1
