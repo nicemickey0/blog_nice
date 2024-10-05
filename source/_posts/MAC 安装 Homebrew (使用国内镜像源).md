@@ -75,7 +75,7 @@ Error downloading Command Line Tools for Xcode: The network connection was lost.
 
 很明显网络问题，建议手动安装 Command Line Tools for Xcode：
 访问 https://developer.apple.com/download/all/?q=Command Line Tools for Xcode 然后下载最新的 dmg 安装包安装就行:
-[![image](https://img2024.cnblogs.com/blog/1386235/202403/1386235-20240315102049325-2058522786.png)](https://img2024.cnblogs.com/blog/1386235/202403/1386235-20240315102049325-2058522786.png)
+![](https://www.helloimg.com/i/2024/10/05/6700cfb8984d6.png)
 
 `error: Rpc failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)`
 
@@ -83,7 +83,7 @@ Error downloading Command Line Tools for Xcode: The network connection was lost.
 
 这两个是网络问题，建议使用国内源进行安装，也就是使用上面的教程，不过建议你也把 git 的缓冲区调大。
 加大缓冲区：编辑 ~/.gitconfig 文件，编写内容如下：
-[![image](https://img2024.cnblogs.com/blog/1386235/202403/1386235-20240315102129317-401989071.png)](https://img2024.cnblogs.com/blog/1386235/202403/1386235-20240315102129317-401989071.png)
+![](https://www.helloimg.com/i/2024/10/05/6700cfc9b8df9.png)
 
 `执行 brew -v 没反应`
 执行上面说的 “安装成功后需将 brew 程序的相关路径加入到环境变量中” 里的命令。
