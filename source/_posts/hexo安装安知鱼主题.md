@@ -1,6 +1,6 @@
 ---
 title: hexo安装安知鱼主题
-categories: 经典文章
+categories: 博客相关
 tags: 
   - 知识
   - 前端

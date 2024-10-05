@@ -1,12 +1,12 @@
 ---
 title: MAC 安装 Homebrew (使用国内镜像源)
-categories: 经典文章
+categories: 技术文章
 tags: 
   - 技术
   - Mac
   - 操作系统
   - 工具
-  
+
 top_img: https://www.helloimg.com/i/2024/10/05/6700d129d3827.png
 date: 2024-10-05 13:22:34
 updated: 2024-10-05 13:22:34
