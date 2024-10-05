@@ -2,24 +2,26 @@
 title: MAC 安装 Homebrew (使用国内镜像源)
 categories: 经典文章
 tags: 
-
   - 技术
   - Mac
   - 操作系统
   - 工具
-
-top_img: https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp
+  
+top_img: https://www.helloimg.com/i/2024/10/05/6700d129d3827.png
 date: 2024-10-05 13:22:34
 updated: 2024-10-05 13:22:34
-cover: https://s2.loli.net/2024/10/03/tg9zYKmc3MNOAFb.png
+cover: https://www.helloimg.com/i/2024/10/05/6700d129d3827.png
 description: MAC 安装 Homebrew (使用国内镜像源)
 keywords: Homebrew
 swiper_index: 1
 top_group_index: 2
 highlight_shrink: # 配置代码框是否展开
-sticky: 1 # 文章置顶
+sticky: 3 # 文章置顶
 
 ---
+# Homebrew 官方地址
+https://brew.sh/zh-cn/
+官方地址使用github的源，国内访问速度很慢，所以我们需要使用国内的源。
 
 # 自动安装 Homebrew
 
