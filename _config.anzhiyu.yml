@@ -622,7 +622,7 @@ theme_color:
 # 移动端侧栏
 sidebar:
   site_data:
-    archive: true
+    archive: false
     tag: true
     category: true
   menus_items: true
@@ -749,7 +749,7 @@ hr_icon:
 
 # the subtitle on homepage (主页subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度参数)
@@ -870,7 +870,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 4/10/2024 00:00:00
 
 # Console - Newest Comments
 newest_comments:
