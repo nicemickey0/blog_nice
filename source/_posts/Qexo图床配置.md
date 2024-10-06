@@ -1,12 +1,12 @@
 ---
 abbrlink: 好
 categories:
-- - 博客相关
+    - 博客相关
 cover: https://s2.loli.net/2024/10/06/IE8YL5bpUlZmSK3.jpg
 date: '2024-10-07T00:42:12.206670+08:00'
 excerpt: Qexo图床配置 从 2.0.0 开始, Qexo 支持了模块化的图床接入方法, 先前的 S3、FTP、Custom 文档合并至此 远程 API​ Qexo 提供了自定义 API 图床功能, 在配置完成图床设置后即可在文章/页面编辑界面上传图片 API 地址​ 图床图片上传的 API https://7bu.top/api/upload  POST 参数名​ 图床图片上传 API 参数中图片文件的...
 tags:
-- 博客
+    - 博客
 title: Qexo图床配置
 updated: '2024-10-07T00:52:00.619+08:00'
 ---

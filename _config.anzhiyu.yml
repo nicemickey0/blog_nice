@@ -15,7 +15,7 @@ menu:
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
   音乐馆: /music/ || anzhiyu-icon-music
   关于本人: /about/ || anzhiyu-icon-paper-plane
-  闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+  闲言碎语: /talks/ || anzhiyu-icon-lightbulb
   # 关于:
   #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
