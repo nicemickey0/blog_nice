@@ -1,4 +1,7 @@
 ---
+abbrlink: 2cbcc9fb
+---
+---
 title: 最强替代 !!! 再见Typora,用它爱上了写作
 categories: 工具相关
 tags: 

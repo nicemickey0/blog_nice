@@ -1,4 +1,7 @@
 ---
+abbrlink: 45ba41a4
+---
+---
 title: hexo安装安知鱼主题
 categories: 博客相关
 tags: 
