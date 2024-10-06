@@ -109,7 +109,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -245,7 +245,7 @@ post_copyright:
 
 # Sponsor/reward  打赏功能
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: img/wechat.png
       link:
@@ -315,7 +315,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: Twikoo
+  use: Twikoo/Valine
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
