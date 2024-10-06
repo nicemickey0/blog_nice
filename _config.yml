@@ -123,6 +123,23 @@ include:
 exclude:
 ignore:
 
+# algolia搜索配置
+algolia:
+  appId: "P9ODEFC9MP"
+  apiKey: "2ddbeaea7c44e415330c07d0a17d6d83"
+  adminApiKey: "0b32884a7ba83bf9ba6f9afe77dce409"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/

@@ -89,12 +89,16 @@ author_status:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
-    per_page: 6
-  tags:
-    # - 前端
-    # - Hexo
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+
+
 
 # Docsearch
 # Apply and Docs: see https://docsearch.algolia.com/
@@ -109,8 +113,8 @@ docsearch:
 
 # Local search
 local_search:
-  enable: true
-  preload: true
+  enable: false
+  preload: false
   CDN:
 
 # Math (数学)
