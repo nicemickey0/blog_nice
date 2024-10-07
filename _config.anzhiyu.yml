@@ -1062,7 +1062,7 @@ css_prefix: true
 
 # 首页顶部相关配置
 home_top:
-  enable: true # 开关
+  enable: false # 开关
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
@@ -1085,9 +1085,29 @@ home_top:
       icon: anzhiyu-icon-book
     - name: Python文章
       path: /categories/Python文章/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-dove
+    - name: 经验分享
+      path: /categories/经验分享/
+      shadow: var(--anzhiyu-shadow-red)
+      class: red
+      icon: anzhiyu-icon-book
+    - name: 软件推荐
+      path: /categories/软件推荐/
+      shadow: var(--anzhiyu-shadow-yellow)
+      class: yellow
+      icon: anzhiyu-icon-fire
+    - name: 转载文章
+      path: /categories/转载文章/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
+    - name: 学习笔记
+      path: /categories/学习笔记/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-dove
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: true
