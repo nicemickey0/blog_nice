@@ -1,5 +1,5 @@
 ---
-title: 即刻短文
+title: talks
 date: 2024-10-07 03:10:55
 comments: true
 aside: false
