@@ -4,10 +4,10 @@ menu:
     分类: /categories/ || anzhiyu-icon-shapes
     标签: /tags/ || anzhiyu-icon-tags
 
-  友链:
+  # 友链:
   #   友人帐: /link/ || anzhiyu-icon-link
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-    留言板: /comments/ || anzhiyu-icon-envelope
+  留言板: /comments/ || anzhiyu-icon-envelope
 
   # 我的:
   #   追番页: /bangumis/ || anzhiyu-icon-bilibili
@@ -15,9 +15,9 @@ menu:
   #   小空调: /air-conditioner/ || anzhiyu-icon-fan
   音乐馆: /music/ || anzhiyu-icon-music
   关于本人: /about/ || anzhiyu-icon-paper-plane
-  闲言碎语: /talks/ || anzhiyu-icon-lightbulb
+  即刻说说: /talks/ || anzhiyu-icon-lightbulb
   # 关于:
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -211,14 +211,14 @@ wordcount:
   min2read: true
   total_wordcount: true
 
-# 在主页显示文章描述
-# 1: description   显示描述
-# 2: both (if the description exists, it will show description, or show the auto_excerpt)
-# 3: auto_excerpt (default)
-# false: do not show the article introduction
+# 主页显示文章內容的方式，有四種可供選擇
+# 1 - 只顯示 description
+# 2 - 優先選擇 description，如果沒有配置 description，則顯示自動節選的內容
+# 3 - 只顯示自動節選
+# 4 - 不顯示文章內容
 index_post_content:
   method: 2
-  length: 500 # if you set method to 2 or 3, the length need to config
+  length: 500 # 自動節選的長度，只有在 method 為 2 或者 3 的時候才需要配置 length
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
@@ -327,40 +327,6 @@ comments:
   count: true # Display comment count in post's top_img
   card_post_count: true # Display comment count in Home Page
 
-# valine
-# https://valine.js.org
-valine:
-  appId: w5SFGwIuJkjcvsVDwMPpSiZg-gzGzoHsz # leancloud application app id
-  appKey: DQQKyr9VIU3Lh5NkTD02IcJs # leancloud application app key
-  pageSize: 10 # comment list page size
-  avatar: mp # gravatar style https://valine.js.org/#/avatar
-  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 填写QQ邮箱就会使用QQ头像喔~. # valine comment input placeholder (like: Please leave your footprints)
-  guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/comment_bg.png # valine background
-  emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
-  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: nick,mail # required fields (nick/mail)
-  visitor: false
-  master:
-    - xxxxx
-  friends:
-    - xxxxxx
-  tagMeta: "博主,小伙伴,访客"
-  option:
-
-# waline - A simple comment system with backend support fork from Valine
-# https://waline.js.org/
-waline:
-  serverURL: # Waline server address url
-  bg: # waline background
-  pageview: false
-  meta: false # 归属地, 操作系统 前是否显示图标
-  imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
-  # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
-  option:
 
 
 
@@ -372,13 +338,7 @@ twikoo:
   visitor: true
   option:
 
-# Artalk
-# https://artalk.js.org/guide/frontend/config.html
-artalk:
-  server:
-  site:
-  visitor: false
-  option:
+
 
 # Chat Services
 # --------------------------------------
@@ -521,7 +481,7 @@ footer:
       link: /copyright
     linkList:
       - link: https://github.com/nicemickey0/blog_nice
-        text: 仓库
+        text: github
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -606,33 +566,33 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#425AEF"
+  main: "#425AEF"   # 主题色
   dark_main: "#f2b94b"
-  paginator: "#425AEF"
-  #   button_hover: "#FF7242"
-  text_selection: "#2128bd"
-  link_color: "var(--anzhiyu-fontcolor)"
-  meta_color: "var(--anzhiyu-fontcolor)"
-  hr_color: "#4259ef23"
-  code_foreground: "#fff"
-  code_background: "var(--anzhiyu-code-stress)"
-  toc_color: "#425AEF"
-  #   blockquote_padding_color: "#425AEF"
-  #   blockquote_background_color: "#425AEF"
-  scrollbar_color: "var(--anzhiyu-scrollbar)"
-  meta_theme_color_light: "#f7f9fe"
-  meta_theme_color_dark: "#18171d"
+  paginator: "#425AEF"   # 分页器颜色
+  #   button_hover: "#FF7242" #按钮 hover 颜色
+  text_selection: "#2128bd"   #文字选中颜色
+  link_color: "var(--anzhiyu-fontcolor)"   #链接颜色
+  meta_color: "var(--anzhiyu-fontcolor)"  # 文章元数据颜色
+  hr_color: "#4259ef23"  #分割线颜色
+  code_foreground: "#fff"   #代码前景色
+  code_background: "var(--anzhiyu-code-stress)"   #代码背景色
+  toc_color: "#425AEF"   #目录颜色
+  #   blockquote_padding_color: "#425AEF"   #引用边框颜色
+  #   blockquote_background_color: "#425AEF"   #引用背景色
+  scrollbar_color: "var(--anzhiyu-scrollbar)"  #滚动条颜色
+  meta_theme_color_light: "#f7f9fe"   #	light mode 主题色
+  meta_theme_color_dark: "#18171d"   #dark mode 主题色
 
 # 移动端侧栏
 sidebar:
   site_data:
-    archive: false
+    archive: true
     tag: true
     category: true
   menus_items: true
   tags_cloud: true
   display_mode: true
-  nav_menu_project: true
+  nav_menu_project: false
 
 # 文章h2添加分隔线
 h2Divider: false
@@ -653,7 +613,7 @@ index_top_img_height:
 # The user interface setting of category and tag page (category和tag页的UI设置)
 # index - same as Homepage UI (index 值代表 UI将与首页的UI一样)
 # default - same as archives UI 默认跟archives页面UI一样
-category_ui: # 留空或 index
+category_ui: index # 留空或 index
 tag_ui: # 留空或 index
 
 # Footer Background
@@ -677,7 +637,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (动态彩带)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -727,7 +687,7 @@ display_mode: light
 # Beautify (美化页面显示)
 beautify:
   enable: true
-  field: post # site/post
+  field: site # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
@@ -790,7 +750,7 @@ preloader:
 
 aside:
   enable: true
-  hide: true
+  hide: false
   button: true
   mobile: true # display on mobile
   position: left # left or right
@@ -802,7 +762,7 @@ aside:
     enable: true
     description:  <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
     name_link: /
-
+  # 公告信息
   card_announcement:
     enable: false
     content: 欢迎来看我的博客鸭~
@@ -810,24 +770,30 @@ aside:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
+  # 最新文章
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
+  # 文章分类
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
-    expand: none # none/true/false
+    expand: true # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
+
+  # 标签
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
-      # - Hexo
-      # - 前端
+      - Hexo
+      - 前端
+      - Python
+    # 
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -838,30 +804,30 @@ aside:
   card_webinfo:
     enable: true
     post_count: true
-    last_push_date: false
+    last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
 
-# electric_clock 电子钟
-# see https://blog.anheyu.com/posts/fc18.html
-electric_clock:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  enable_page: all # 应用页面
-  exclude:
-  # - /posts/
-  # - /about/
-  layout: # 挂载容器类型
-    type: class
-    name: sticky_layout
-    index: 0
-  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
-  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
-  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
-  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
-  qweather_key: 7472b9b79e3440b8a291c267bc4a6da7 # 和风天气key
-  gaud_map_key: 549c703a2acb4a01e52e9bd17d5dfda7 # 高得地图web服务key
-  default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
-  rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
+  # electric_clock 电子钟
+  # see https://blog.anheyu.com/posts/fc18.html
+  electric_clock:
+    enable: true # 开关
+    priority: 5 #过滤器优先权
+    enable_page: all # 应用页面
+    exclude:
+    # - /posts/
+    # - /about/
+    layout: # 挂载容器类型
+      type: class
+      name: sticky_layout
+      index: 0
+    loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+    clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+    clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
+    ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+    qweather_key: 7472b9b79e3440b8a291c267bc4a6da7 # 和风天气key
+    gaud_map_key: 549c703a2acb4a01e52e9bd17d5dfda7 # 高得地图web服务key
+    default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
+    rectangle: 112.982279,28.19409 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
 
 # busuanzi count for PV / UV in site
 # 访问人数
@@ -876,7 +842,7 @@ runtimeshow:
   enable: true
   publish_date: 10/02/2024 00:00:00
 
-# Console - Newest Comments
+# 最新评论
 newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
@@ -916,11 +882,11 @@ centerConsole:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
-      # - Hexo
-      # - 前端
+      - Hexo
+      - 前端
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -1025,10 +991,10 @@ snackbar:
 instantpage: true
 
 # https://github.com/vinta/pangu.js
-# Insert a space between Chinese character and English character (中英文之间添加空格)
+# 自动替你在网页中所有的中文字和半形的英文、数字、符号之间插入空白
 pangu:
-  enable: false
-  field: site # site/post
+  enable: true
+  field: post # site/post
 
 # Lazyload (图片懒加载)
 # https://github.com/verlok/vanilla-lazyload
@@ -1043,7 +1009,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
+  enable: true
   startup_image_enable: true
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
@@ -1055,6 +1021,7 @@ pwa:
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
+# 在 head 里增加一些 meta 资料，例如缩略图、标题、时间等等。当你分享网页到一些平台时，平台会读取 Open Graph 的内容，展示缩略图，标题等等信息。
 Open_Graph_meta: true
 
 # Add the vendor prefixes to ensure compatibility
@@ -1066,7 +1033,7 @@ home_top:
   timemode: date #date/updated
   title: 生活明朗
   subTitle: 万物可爱。
-  siteText: anheyu.com
+  siteText: nice.newggj.com
   category:
     - name: 博客相关
       path: /categories/博客相关/
@@ -1109,11 +1076,11 @@ home_top:
       class: blue
       icon: anzhiyu-icon-dove
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper:
+  swiper:   # 显示首页右上角轮播图
     enable: false
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
-  banner:
+  banner:  # 右上角anner
     tips: 科技未来
     title: 小梦子の部落阁
     image: https://s2.loli.net/2024/10/06/IE8YL5bpUlZmSK3.jpg
@@ -1121,7 +1088,7 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: true
+  enable: false
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
@@ -1277,6 +1244,7 @@ inject:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/style.css?1">
+    - <link rel="stylesheet" href="/css/style1.css?1">
     # 静态文件后面加个  ?任意内容  可以在每次更新之后用户自动重新请求.
     # 例如添加 ?1 ,在修改此文件后改成 ?2 ,用户访问你的网站时,不会使用本地的缓存,而是请求新的内容。没修改的话就不用动。
 

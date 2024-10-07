@@ -26,6 +26,7 @@
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-next-twikoo": "^1.0.3",
+    "hexo-offline": "^3.0.0",
     "hexo-plugin-postchat": "^1.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.3.0",
