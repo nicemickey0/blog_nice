@@ -17,6 +17,8 @@ top_group_index: 2
 highlight_shrink: # 配置代码框是否展开
 top_single_background: https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp
 sticky: 1 # 文章置顶
+ai :
+  - 这篇内容主要介绍了基于 hexo--theme--butterfly 修改的主题 hexo--theme--anzhiyu。包括安装方法，如在博客根目录安装 Git 并克隆主题代码，修改 hexo 配置文件将主题改为 anzhiyu，安装特定渲染器等。还介绍了覆盖配置的方法及注意事项，不同操作系统有不同的操作方式。此外，提到了主题的部分功能展示，如沉浸式状态栏、自定义右键菜单、AI 摘要、清爽界面和评论弹幕等，最后列出了主题的贡献者和许可协议。
 --- 
 
 预览: 👍 [AnZhiYu](https://blog.anheyu.com/) || 🤞 [AnZhiYu](https://index.anheyu.com/)

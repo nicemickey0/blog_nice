@@ -17,6 +17,8 @@ abbrlink: 91194a11
 date: 2024-10-05 13:22:34
 updated: 2024-10-05 13:22:34
 highlight_shrink:
+ai:
+  - 本文主要介绍了在 Mac 操作系统上安装 Homebrew 的方法，包括自动安装和手动安装两种方式，同时提供了一些错误的解决方式。由于 Homebrew 官方地址使用 github 的源国内访问速度慢，所以使用国内的源进行安装。文章还提到了安装成功后需将 brew 程序的相关路径加入到环境变量中，以及针对不同错误的解决方法。
 ---
 # Homebrew 官方地址
 https://brew.sh/zh-cn/

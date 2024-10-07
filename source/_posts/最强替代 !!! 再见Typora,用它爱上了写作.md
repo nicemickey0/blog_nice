@@ -17,6 +17,8 @@ top_group_index: 2
 highlight_shrink: false
 top_single_background: 
 sticky: 5 # 文章置顶
+ai:
+  - 本文主要介绍了 Marktext 这款 Markdown 编辑器。自从 Typora 收费后，Marktext 因开源免费的特性成为众多用户的替代选择。文章介绍了 Markdown 的起源和发展，以及 Marktext 的特点和主要功能。它具有简洁优雅的界面和强大功能，如实时预览、多种编辑模式、跨平台兼容、丰富的扩展功能等。其主要功能包括跨平台兼容、实时预览、多种主题选择、数学公式支持、丰富的编辑模式、快捷键支持、图像粘贴和导出选项等。
 --- 
 
 
