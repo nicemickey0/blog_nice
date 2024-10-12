@@ -12,7 +12,7 @@ tags:
 - Python
 title: Python设置国内镜像源
 top_img: https://pic3.zhimg.com/v2-332353a013a240048c9b7bb975bad3de_720w.jpg?source=172ae18b
-updated: '2024-10-12T13:15:03.190+08:00'
+updated: '2024-10-12T13:15:17.966+08:00'
 ---
 ## python官方各版本下载地址：
 
