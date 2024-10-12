@@ -2,15 +2,17 @@
 abbrlink: '30363'
 ai: 由于 python 自带的源下载速度非常慢，特别是安装一些库的时候，甚至有时会失败。  因此，建议将下载源替换成国内的，下载速度会快很多。总共有两种方法  代码替换
   （推荐使用这一种） 手动替换
-categories: []
+categories:
+- - Python相关
 cover: https://pic3.zhimg.com/v2-332353a013a240048c9b7bb975bad3de_720w.jpg?source=172ae18b
 date: '2024-10-12T12:47:20.101640+08:00'
 excerpt: python官方各版本下载地址： https://www.python.org/ftp/python/ Python 第三方库国内镜像下载地址 豆瓣  https://pypi.douban.com/simple  阿里云  https://mirrors.aliyun.com/pypi/simple  清华大学  https://pypi.tuna.tsinghua.edu.cn/simple ...
 sticky: '9'
-tags: []
+tags:
+- Python
 title: Python设置国内镜像源
 top_img: https://pic3.zhimg.com/v2-332353a013a240048c9b7bb975bad3de_720w.jpg?source=172ae18b
-updated: '2024-10-12T12:59:13.267+08:00'
+updated: '2024-10-12T13:15:03.190+08:00'
 ---
 ## python官方各版本下载地址：
 
