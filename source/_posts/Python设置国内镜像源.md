@@ -3,7 +3,6 @@ abbrlink: '30363'
 ai: 由于 python 自带的源下载速度非常慢，特别是安装一些库的时候，甚至有时会失败。  因此，建议将下载源替换成国内的，下载速度会快很多。总共有两种方法  代码替换
   （推荐使用这一种） 手动替换
 categories:
-- - Python相关
 - - Python文章
 cover: https://pic3.zhimg.com/v2-332353a013a240048c9b7bb975bad3de_720w.jpg?source=172ae18b
 date: '2024-10-12T12:47:20.101640+08:00'
@@ -11,9 +10,10 @@ excerpt: python官方各版本下载地址： https://www.python.org/ftp/python
 sticky: '9'
 tags:
 - Python
+- 技术
 title: Python设置国内镜像源
 top_img: https://pic3.zhimg.com/v2-332353a013a240048c9b7bb975bad3de_720w.jpg?source=172ae18b
-updated: '2024-10-12T13:16:59.833+08:00'
+updated: '2024-10-12T13:17:47.081+08:00'
 ---
 ## python官方各版本下载地址：
 
